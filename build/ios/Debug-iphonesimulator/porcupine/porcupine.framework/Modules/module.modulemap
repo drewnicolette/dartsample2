@@ -1,0 +1,11 @@
+framework module porcupine {
+  umbrella header "porcupine-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module porcupine.Swift {
+    header "porcupine-Swift.h"
+    requires objc
+}
